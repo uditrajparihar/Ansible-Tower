@@ -1,6 +1,6 @@
 - hosts: all
   tasks:
     - package: "name=httpd state=present"
-    - copy: "content='Hello!! Webhook is workin. to summarize the url of job/template is shared to getihub , to automate when as the coder commits the chnages in the code the job/template will be triggered autmaticaly no user has to laucch the job manually in Ansible tower . This is my own Server testing /n from UDIT RAJ PARIHAR JUST BELIVE IN YOURSELF AND DO HARD WORK YOULL BE SUCESSFULL VERY SOON !!!' dest=/var/www/html/index.html"
+    - copy: " 'This is an EX447 test webpage' dest=/var/www/html/index.html"
     - service: "name=httpd state=started"
   
